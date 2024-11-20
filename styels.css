@@ -1,0 +1,37 @@
+h1 {
+    position: relative;
+    color: red !important;
+}
+
+h1::after {
+    content: 'AFTER';
+}
+
+h1::first-letter {
+    color: blue;
+}
+
+p::first-line {
+    color: red;
+}
+
+#title {
+    font-size: 50px;
+}
+
+.page-title {
+    font-size: 20px;
+}
+
+.page-title,
+#title {
+    border: 1px solid green;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.btn--red {
+    background-color: red;
+}
